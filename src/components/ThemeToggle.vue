@@ -72,7 +72,7 @@ const toggleDropdown = () => {
           v-for="theme in themes"
           :key="theme.value"
           @click="handleThemeChange(theme.value)"
-          class="w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700 flex items-center gap-2 transition-colors"
+          class="w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700 flex items-center gap-2 transition-colors text-gray-700 dark:text-white"
           :class="{ 'bg-blue-50 dark:bg-blue-900': theme.value === store.theme }"
         >
           <span>{{ theme.icon }}</span>

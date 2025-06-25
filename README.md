@@ -56,3 +56,9 @@ src/
 
 Приложение использует [JSONPlaceholder API](https://jsonplaceholder.typicode.com/) для получения данных о фотографиях.
 
+## Деплой
+
+### Vercel (рекомендуется)
+1. Создайте аккаунт на [vercel.com](https://vercel.com)
+2. Подключите GitHub репозиторий
+3. Vercel автоматически определит настройки для Vue проекта
